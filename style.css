@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: fantasy;
+    background-color: rgb(201, 194, 194);
+}
+
+/* heading */
+h1{
+    text-align: center;
+    line-height: 5rem;
+    background-color: rgb(181, 37, 83);
+    font-size:50px;
+}
+
+h3{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* choices */
+.choices{
+    margin-top: 2rem;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.choice{
+    border:2 px transparent;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    border:5px solid black;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+
+/* truth */
+#truth{
+    height: 13rem;
+    width: 13rem;
+    background-image: url("images.png");
+    background-size: cover;
+}
+
+/* dare */
+#dare{
+    height: 13rem;
+    width: 13rem;
+    background-image: url("dare.png");
+    background-size: cover;
+}
+
+/* comments */
+
+#msg{
+    margin-top: 3rem;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
